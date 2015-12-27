@@ -2,10 +2,10 @@
 ## matrix rather than compute it repeatedly. This pair of functions will cache the inverse of a matrix.
 
 ## The first function, makeCacheMatrix creates a list containing a function to
-# 1. set the value of the vector
-# 2. get the value of the vector
-# 3. set the value of the mean
-# 4. get the value of the mean
+# 1. set the value of the matrix
+# 2. get the value of the matrix
+# 3. set the value of inverse of the matrix 
+# 4. get the value of inverse of the matrix
 
 makeCacheMatrix <- function(x = matrix()) {
      inv <- NULL
